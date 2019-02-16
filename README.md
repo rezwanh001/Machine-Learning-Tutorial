@@ -3,7 +3,7 @@
     This blog is on different machine learning algorithms.
  ------------
 
-#### [Q1. What is Machine Learning?](https://github.com/rezwanh001/Machine-Learning-Tutorial/edit/master/README.md/Q1)
+#### [Q1. What is Machine Learning?](https://github.com/rezwanh001/Machine-Learning-Tutorial/blob/master/README.md#L6)
 
    *Ans:* There's a science of getting computers to learn without being explicitly programmed [1].  
    
