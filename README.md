@@ -3,7 +3,7 @@
     This blog is on different machine learning algorithms.
  ------------
 
-#### [Q1. What is Machine Learning?](https://github.com/rezwanh001/Machine-Learning-Tutorial/blob/master/README.md#L6-L22)
+#### [Q1. What is Machine Learning?](https://github.com/rezwanh001/Machine-Learning-Tutorial/blame/52051a1137f8a86b607ee8e1f6362b2f2d0e6b8a/README.md#L6)
 
    *Ans:* There's a science of getting computers to learn without being explicitly programmed [1].  
    
@@ -20,7 +20,7 @@
      P = the probability that the program will win the next game.
 
  
-#### [Q2. Why is machine learning so prevalent today?](https://github.com/rezwanh001/Machine-Learning-Tutorial/blob/master/README.md#L23-L37)
+#### [Q2. Why is machine learning so prevalent today?](https://github.com/rezwanh001/Machine-Learning-Tutorial/blame/52051a1137f8a86b607ee8e1f6362b2f2d0e6b8a/README.md#L23)
 
    *Ans:* 
     
@@ -35,14 +35,14 @@
      * Understanding human learning(brain, real AI).
      
      
-  #### [Q3. Types of Machine Learning Algorithms](https://github.com/rezwanh001/Machine-Learning-Tutorial/blob/master/README.md#L38) [1].
+  #### [Q3. Types of Machine Learning Algorithms](https://github.com/rezwanh001/Machine-Learning-Tutorial/blame/52051a1137f8a86b607ee8e1f6362b2f2d0e6b8a/README.md#L38) [1].
     
    * ***Supervised learning:*** In supervised learning, the idea is we're going to teach the computer how to do something.
    * ***Unsupervised learning:*** In unsupervised learning, we're going to let it learn by itself. 
    * ***Others:*** Reinforcement learning, Recommender systems, Practical advice for applying learning algorithms.
    
     
-  #### [Q4. Supervised Learning](https://github.com/rezwanh001/Machine-Learning-Tutorial/blob/master/README.md#L45) [1]: 
+  #### [Q4. Supervised Learning](https://github.com/rezwanh001/Machine-Learning-Tutorial/blame/52051a1137f8a86b607ee8e1f6362b2f2d0e6b8a/README.md#L45) [1]: 
   Supervised learning problems are categorized into "regression" and "classification" problems. In a regression problem, we are trying to predict results within a continuous output, meaning that we are trying to map input variables to some continuous function. In a classification problem, we are instead trying to predict results in a discrete output. In other words, we are trying to map input variables into discrete categories.
     
    * This is an example of housing price prediction. This picture is picked from *Andrew NG's* lecture.
@@ -56,7 +56,7 @@
    * It turns out that when we talk about an algorithm the Support Vector Machine(SVM), there will be a neat mathematical trick that will allow a computer to deal with infinte number of features. 
    
    
-  #### [Q5. Unsupervised Learning](https://github.com/rezwanh001/Machine-Learning-Tutorial/blob/master/README.md#L59) [1]: 
+  #### [Q5. Unsupervised Learning](https://github.com/rezwanh001/Machine-Learning-Tutorial/blame/52051a1137f8a86b607ee8e1f6362b2f2d0e6b8a/README.md#L59) [1]: 
   Unsupervised learning allows us to approach problems with little or no idea what our results should look like. We can derive structure from data where we don't necessarily know the effect of the variables.
   
   Given this data set, an Unsupervised Learning algorithm might decide that the data lives in two different clusters. And so there's one cluster and there's a different cluster. And yes, Supervised Learning algorithm may break these data into these two separate clusters. So this is called a clustering algorithm.
