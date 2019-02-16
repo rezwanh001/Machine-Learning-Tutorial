@@ -3,7 +3,7 @@
     This blog is on different machine learning algorithms.
  ------------
 
-#### Q1. What is Machine Learning?
+### Q1. What is Machine Learning?
 
    *Ans:* There's a science of getting computers to learn without being explicitly programmed [1].  
    
@@ -20,7 +20,7 @@
      P = the probability that the program will win the next game.
 
  
-#### Q2. Why is machine learning so prevalent today?
+### Q2. Why is machine learning so prevalent today?
 
    *Ans:* 
     
@@ -35,14 +35,14 @@
      * Understanding human learning(brain, real AI).
      
      
-  #### Q3. Types of Machine Learning Algorithms [1].
+ ### Q3. Types of Machine Learning Algorithms [1].
     
    * ***Supervised learning:*** In supervised learning, the idea is we're going to teach the computer how to do something.
    * ***Unsupervised learning:*** In unsupervised learning, we're going to let it learn by itself. 
    * ***Others:*** Reinforcement learning, Recommender systems, Practical advice for applying learning algorithms.
    
     
-  #### Q4. Supervised Learning [1]: 
+ ### Q4. Supervised Learning [1]: 
   Supervised learning problems are categorized into "regression" and "classification" problems. In a regression problem, we are trying to predict results within a continuous output, meaning that we are trying to map input variables to some continuous function. In a classification problem, we are instead trying to predict results in a discrete output. In other words, we are trying to map input variables into discrete categories.
     
    * This is an example of housing price prediction. This picture is picked from *Andrew NG's* lecture.
@@ -56,7 +56,7 @@
    * It turns out that when we talk about an algorithm the Support Vector Machine(SVM), there will be a neat mathematical trick that will allow a computer to deal with infinte number of features. 
    
    
-  #### Q5. Unsupervised Learning [1]: 
+ ### Q5. Unsupervised Learning [1]: 
   Unsupervised learning allows us to approach problems with little or no idea what our results should look like. We can derive structure from data where we don't necessarily know the effect of the variables.
   
   Given this data set, an Unsupervised Learning algorithm might decide that the data lives in two different clusters. And so there's one cluster and there's a different cluster. And yes, Supervised Learning algorithm may break these data into these two separate clusters. So this is called a clustering algorithm.
@@ -75,9 +75,34 @@
 
        * Non-clustering: The "Cocktail Party Algorithm", allows you to find structure in a chaotic environment. (i.e. identifying individual voices and music from a mesh of sounds at a cocktail party).
       
-      * 
+      
+ ### Model and Cost Function:
+ 
+   * `m` = Number of training examples.
+   
+   * `X`'s = Input variable/Features.
+   
+   * `y`'s = Outout variable/Target variable.
+   
+   * `(X,y)` = one training example.
+   
+   * (X<sup>(i)</sup>, y<sup>(i)</sup>) = `i`-th training example.
+   
+  So here's how this supervised learning algorithm works. To describe the supervised learning problem slightly more formally, our goal is, given a training set, to learn a function `h : X → Y` so that `h(x)` is a “good” predictor for the corresponding value of y. For historical reasons, this function h is called a hypothesis. Seen pictorially, the process is therefore like this:
   
-
+   ![hypo](https://user-images.githubusercontent.com/15044221/52900513-ed1db480-3220-11e9-9b11-a0f96a5a7854.png)
+   
+ When the target variable that we’re trying to predict is continuous, such as in our housing example, we call the learning problem a regression problem. When `y` can take on only a small number of discrete values (such as if, given the living area, we wanted to predict if a dwelling is a house or an apartment, say), we call it a classification problem.
+ 
+   * How do we represent `h`?
+       
+        <a href="https://www.codecogs.com/eqnedit.php?latex=h_{\theta}(X)&space;=&space;\theta_{0}&space;&plus;&space;\theta_{1}(X)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?h_{\theta}(X)&space;=&space;\theta_{0}&space;&plus;&space;\theta_{1}(X)" title="h_{\theta}(X) = \theta_{0} + \theta_{1}(X)" /></a>                ------- (i)
+        
+        this equation(i) is called Linear regression with one variable or Univariate linear regression.
+        
+      
+         
+        
 
 ***References***
 
