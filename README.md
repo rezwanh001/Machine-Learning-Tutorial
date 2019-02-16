@@ -20,7 +20,7 @@
      P = the probability that the program will win the next game.
 
  
-#### [Q2. Why is machine learning so prevalent today?](https://github.com/rezwanh001/Machine-Learning-Tutorial/blob/master/README.md#L23)
+#### [Q2. Why is machine learning so prevalent today?](https://github.com/rezwanh001/Machine-Learning-Tutorial/blob/master/README.md#Q2)
 
    *Ans:* 
     
