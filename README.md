@@ -88,7 +88,7 @@
    
    * (X<sup>(i)</sup>, y<sup>(i)</sup>) = `i`-th training example.
    
-  So here's how this supervised learning algorithm works. To describe the supervised learning problem slightly more formally, our goal is, given a training set, to learn a function `h : X → Y` so that `h(x)` is a “good” predictor for the corresponding value of y. For historical reasons, this function h is called a hypothesis. Seen pictorially, the process is therefore like this:
+  So here's how this supervised learning algorithm works. To describe the supervised learning problem slightly more formally, our goal is, given a training set, to learn a function `h : X → y` so that `h(x)` is a “good” predictor for the corresponding value of `y`. For historical reasons, this function `h` is called a hypothesis. Seen pictorially, the process is therefore like this:
   
    ![hypo](https://user-images.githubusercontent.com/15044221/52900513-ed1db480-3220-11e9-9b11-a0f96a5a7854.png)
    
@@ -96,9 +96,11 @@
  
    * How do we represent `h`?
        
-        <a href="https://www.codecogs.com/eqnedit.php?latex=h_{\theta}(X)&space;=&space;\theta_{0}&space;&plus;&space;\theta_{1}(X)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?h_{\theta}(X)&space;=&space;\theta_{0}&space;&plus;&space;\theta_{1}(X)" title="h_{\theta}(X) = \theta_{0} + \theta_{1}(X)" /></a>                ------- (i)
+        <a href="https://www.codecogs.com/eqnedit.php?latex=h_{\theta}(X)&space;=&space;\theta_{0}&space;&plus;&space;\theta_{1}(X)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?h_{\theta}(X)&space;=&space;\theta_{0}&space;&plus;&space;\theta_{1}(X)" title="h_{\theta}(X) = \theta_{0} + \theta_{1}(X)" /></a>                ------------(i)
         
         this equation(i) is called Linear regression with one variable or Univariate linear regression.
+        
+        
         
       
          
