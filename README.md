@@ -3,7 +3,7 @@
     This blog is on different machine learning algorithms.
  ------------
 
-#### [Q1. What is Machine Learning?](https://github.com/rezwanh001/Machine-Learning-Tutorial/blob/master/README.md#L6)
+#### [Q1. What is Machine Learning?](https://github.com/rezwanh001/Machine-Learning-Tutorial/blob/master/README.md#L6-L22)
 
    *Ans:* There's a science of getting computers to learn without being explicitly programmed [1].  
    
@@ -20,7 +20,7 @@
      P = the probability that the program will win the next game.
 
  
-#### [Q2. Why is machine learning so prevalent today?](https://github.com/rezwanh001/Machine-Learning-Tutorial/blob/master/README.md#Q2)
+#### [Q2. Why is machine learning so prevalent today?](https://github.com/rezwanh001/Machine-Learning-Tutorial/blob/master/README.md#L23-L37)
 
    *Ans:* 
     
