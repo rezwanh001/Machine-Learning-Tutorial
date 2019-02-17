@@ -96,8 +96,8 @@
  
    * How do we represent `h`?
        
-        <a href="https://www.codecogs.com/eqnedit.php?latex=h_{\theta}(X)&space;=&space;\theta_{0}&space;&plus;&space;\theta_{1}(X)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?h_{\theta}(X)&space;=&space;\theta_{0}&space;&plus;&space;\theta_{1}(X)" title="h_{\theta}(X) = \theta_{0} + \theta_{1}(X)" /></a>                ------------(i)
-        
+        <a href="https://www.codecogs.com/eqnedit.php?latex=h_{\theta}(X)&space;=&space;\theta_{0}&space;&plus;&space;\theta_{1}(X)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?h_{\theta}(X)&space;=&space;\theta_{0}&space;&plus;&space;\theta_{1}(X)" title="h_{\theta}(X) = \theta_{0} + \theta_{1}(X)" /></a>                --------------(i)
+ 
         this equation(i) is called Linear regression with one variable or Univariate linear regression.
         
         
